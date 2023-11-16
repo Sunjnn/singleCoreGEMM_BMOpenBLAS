@@ -51,7 +51,7 @@ int main(int argc, char** argv)
     }
 
     cout << "---------------------------------------------------------" <<endl;
-    cout << "Test performance os openblas" << endl;
+    cout << "Test performance of openblas" << endl;
     auto start = system_clock::now();
     testPerformanceOpenBLAS(size, size, size);
     auto end = system_clock::now();
