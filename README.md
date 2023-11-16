@@ -4,6 +4,15 @@ Benchmark of OpenBLAS for single core GEMM.
 
 ## build and run
 
+Before running the project,
+environment variables for the number of threads should be set.
+
+``` bash
+export OPENBLAS_NUM_THREADS=1
+export GOTO_NUM_THREADS=1
+export OMP_NUM_THREADS=1
+```
+
 ### manually
 
 Build this project using `xmake`.
